@@ -1,4 +1,4 @@
 # Git Playground
 
 ### Purpose
-Learning basic to advance usage of git
+Learning git from basic to advance
