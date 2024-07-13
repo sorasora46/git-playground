@@ -29,4 +29,19 @@ This will check you out to new branch named 'branch-a'.\
 The latter command will set remote tracking of local branch 'branch-a' to remote origin named 'branch-a' also.
 
 ### Can I set local branch to track different origin branch name?
-Yes?
+Yes, using `git push -u origin <local>:<remote>`
+
+Example:
+```
+git push -u origin branch-ax-local:branch-ax-remote
+```
+Now the branch-ax-local will track branch named branch-ax-remote\
+btw when checking out different branch running `git push -u origin <other branch>` won't set remote tracking branch to 'other branch'\
+If you want to track diffrenet remote branch name you need to use `:` (colon notation) above.
+
+Output of `git branch -vv`:
+```
+  branch-a        fc989dd [origin/branch-a] Added greeting
+  branch-ax-local 078753e [origin/branch-ax-remote] Added push new branch note
+* main            fe61773 [origin/main] Added question
+```
