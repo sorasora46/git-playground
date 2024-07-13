@@ -28,3 +28,5 @@ git push -u origin branch-a
 This will check you out to new branch named 'branch-a'.\
 The latter command will set remote tracking of local branch 'branch-a' to remote origin named 'branch-a' also.
 
+### Can I set local branch to track different origin branch name?
+Yes?
