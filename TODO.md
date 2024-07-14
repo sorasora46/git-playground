@@ -1,9 +1,9 @@
 # TO LEARN
-[ ] - Amend (inside git commit)
+[x] - Amend (inside git commit)
 [ ] - git stash
 [ ] - git cherry-pick
 [ ] - push with force
-[ ] - git rebase
+[ ] - rewriting history, git rebase
 [ ] - Squash (inside rebase)
 [ ] - interactive rebase
 [ ] - Resolve merge conflict
